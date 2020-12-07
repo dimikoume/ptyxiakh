@@ -1,0 +1,17 @@
+<ion-app>
+  <ion-menu contentId="content1" side="start">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>{{ 'MENU.Menu' | translate }}</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-item>{{ 'MENU.About' | translate }}</ion-item>
+        <ion-item>{{ 'MENU.Settings' | translate }}</ion-item>
+    
+      </ion-list> 
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="content1" main></ion-router-outlet>
+</ion-app>
